@@ -1,0 +1,12 @@
+E:\VS2022\SocialProgrammer\ToDoList.Domain\bin\Debug\net7.0\SocialProgrammer.Domain.deps.json
+E:\VS2022\SocialProgrammer\ToDoList.Domain\bin\Debug\net7.0\SocialProgrammer.Domain.dll
+E:\VS2022\SocialProgrammer\ToDoList.Domain\bin\Debug\net7.0\SocialProgrammer.Domain.pdb
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.csproj.AssemblyReference.cache
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.AssemblyInfoInputs.cache
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.AssemblyInfo.cs
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.csproj.CoreCompileInputs.cache
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.dll
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\refint\SocialProgrammer.Domain.dll
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\SocialProgrammer.Domain.pdb
+E:\VS2022\SocialProgrammer\ToDoList.Domain\obj\Debug\net7.0\ref\SocialProgrammer.Domain.dll

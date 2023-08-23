@@ -1,0 +1,17 @@
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.csproj.AssemblyReference.cache
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.AssemblyInfoInputs.cache
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.AssemblyInfo.cs
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.csproj.CoreCompileInputs.cache
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.Service.deps.json
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.Service.dll
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.Service.pdb
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.DAL.dll
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.Domain.dll
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.DAL.pdb
+E:\VS2022\SocialProgrammer\ToDoList.Service\bin\Debug\net7.0\SocialProgrammer.Domain.pdb
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.csproj.CopyComplete
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.dll
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\refint\SocialProgrammer.Service.dll
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\SocialProgrammer.Service.pdb
+E:\VS2022\SocialProgrammer\ToDoList.Service\obj\Debug\net7.0\ref\SocialProgrammer.Service.dll

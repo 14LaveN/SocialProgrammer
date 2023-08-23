@@ -1,6 +1,6 @@
-﻿using ToDoList.Domain.Enum;
+﻿using SocialProgrammer.Domain.Enum;
 
-namespace ToDoList.Domain.Response;
+namespace SocialProgrammer.Domain.Response;
 
 public class BaseResponse<T> : IBaseResponse<T>
 {

@@ -1,23 +1,25 @@
 using Microsoft.EntityFrameworkCore;
-using ToDoList.DAL;
-using ToDoList.DAL.Interfaces;
-using ToDoList.DAL.Repositories;
-using ToDoList.Domain.Entity;
-using ToDoList.Service.Implementations;
-using ToDoList.Service.Interfaces;
+using Microsoft.Extensions.Configuration;
+using MongoDB.Driver;
+using SocialProgrammer;
+using SocialProgrammer.DAL;
+using SocialProgrammer.DAL.Interfaces;
+using SocialProgrammer.DAL.Repositories;
+using SocialProgrammer.Domain.Entity;
+using SocialProgrammer.Domain.ViewModels.MongoSettings;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
-builder.Services.AddScoped<IBaseRepository<TaskEntity>, TaskRepository>();
-builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.InitializeRepositories();
+builder.Services.InitializeServices();
+builder.Services.Configure<Settings>(
+    builder.Configuration.GetSection("MongoConnection"));
 
-var connectionString = builder.Configuration.GetConnectionString("MSSQL");
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseSqlServer(connectionString);
-});
+builder.Services.AddControllers()
+    .AddJsonOptions(
+        options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 
 var app = builder.Build();
 
@@ -36,6 +38,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Task}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Index}/{id?}");
 
 app.Run();

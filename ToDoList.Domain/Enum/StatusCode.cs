@@ -1,4 +1,4 @@
-﻿namespace ToDoList.Domain.Enum;
+﻿namespace SocialProgrammer.Domain.Enum;
 
 public enum StatusCode
 {

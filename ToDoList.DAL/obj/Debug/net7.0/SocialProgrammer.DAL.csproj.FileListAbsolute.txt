@@ -1,0 +1,15 @@
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.csproj.AssemblyReference.cache
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.AssemblyInfoInputs.cache
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.AssemblyInfo.cs
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.csproj.CoreCompileInputs.cache
+E:\VS2022\SocialProgrammer\ToDoList.DAL\bin\Debug\net7.0\SocialProgrammer.DAL.deps.json
+E:\VS2022\SocialProgrammer\ToDoList.DAL\bin\Debug\net7.0\SocialProgrammer.DAL.dll
+E:\VS2022\SocialProgrammer\ToDoList.DAL\bin\Debug\net7.0\SocialProgrammer.DAL.pdb
+E:\VS2022\SocialProgrammer\ToDoList.DAL\bin\Debug\net7.0\SocialProgrammer.Domain.dll
+E:\VS2022\SocialProgrammer\ToDoList.DAL\bin\Debug\net7.0\SocialProgrammer.Domain.pdb
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.csproj.CopyComplete
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.dll
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\refint\SocialProgrammer.DAL.dll
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\SocialProgrammer.DAL.pdb
+E:\VS2022\SocialProgrammer\ToDoList.DAL\obj\Debug\net7.0\ref\SocialProgrammer.DAL.dll
