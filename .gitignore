@@ -1,0 +1,9 @@
+/.idea
+/ToDoList/bin
+/ToDoList/obj
+/ToDoList.Service/bin
+/ToDoList.Service/obj
+/ToDoList.DAL/bin
+/ToDoList.DAL/obj
+/ToDoList.Domain/bin
+/ToDoList.Domain/obj
