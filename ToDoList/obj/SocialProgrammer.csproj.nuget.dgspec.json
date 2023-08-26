@@ -56,6 +56,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.21.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [
@@ -126,6 +130,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.21.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [
@@ -199,6 +207,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.21.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [
@@ -289,6 +301,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.21.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [

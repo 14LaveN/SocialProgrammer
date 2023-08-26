@@ -12,46 +12,38 @@ using System.Threading.Tasks;
 
 namespace SocialProgrammer.DAL.Repositories;
 
-public class UserRepository : IUserRepository
+public class UserRepository : IUserRepository<UserEntity>
 {
-    private readonly UserContext userContext = null;
+    private readonly IMongoCollection<UserEntity> usersCollection;
 
-    public UserRepository(IOptions<Settings> settings)
+    public UserRepository(
+        IOptions<Settings> dbSettings)
     {
-        userContext = new UserContext(settings);
+        var mongoClient = new MongoClient(
+            dbSettings.Value.ConnectionString);
+
+        var mongoDatabase = mongoClient.GetDatabase(
+            dbSettings.Value.Database);
+
+        usersCollection = mongoDatabase.GetCollection<UserEntity>(
+            dbSettings.Value.UsersCollectionName);
     }
 
-    public async Task<IEnumerable<UserEntity>> GetAllUsers()
-    {
-        return await userContext.Users.Find(_ => true).ToListAsync();
-    }
+    public async Task<List<UserEntity>> GetAllAsync() =>
+        await usersCollection.Find(_ => true).ToListAsync();
 
-    public async Task<UserEntity> GetUser(string id)
-    {
-        var filter = Builders<UserEntity>.Filter.Eq("Id", id);
-        return await userContext.Users
-                        .Find(filter)
-                        .FirstOrDefaultAsync();
-    }
+    public async Task<UserEntity?> GetAsync(string id) =>
+        await usersCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
 
-    public async Task AddUser(UserEntity item)
-    {
-        await userContext.Users.InsertOneAsync(item);
-    }
+    public async Task<UserEntity?> GetNameAsync(string name) =>
+        await usersCollection.Find(x => x.Name == name).FirstOrDefaultAsync();
 
-    public async Task<DeleteResult> RemoveUser(string id)
-    {
-        return await userContext.Users.DeleteOneAsync(
-             Builders<UserEntity>.Filter.Eq("Id", id));
-    }
+    public async Task CreateAsync(UserEntity newUser) =>
+        await usersCollection.InsertOneAsync(newUser);
 
-    //public async Task<UpdateResult> UpdateNote(string id, string body)
-    //{
-    //    var filter = Builders<UserEntity>.Filter.Eq(x => x.id, id);
-    //    var update = Builders<UserEntity>.Update
-    //                    .Set(s => s.Body, body)
-    //                    .CurrentDate(s => s.UpdatedOn);
-    //
-    //    return await userContext.Users.UpdateOneAsync(filter, update);
-    //}
+    public async Task UpdateAsync(string id, UserEntity updatedBook) =>
+        await usersCollection.ReplaceOneAsync(x => x.Id == id, updatedBook);
+
+    public async Task RemoveAsync(string id) =>
+        await usersCollection.DeleteOneAsync(x => x.Id == id);
 }

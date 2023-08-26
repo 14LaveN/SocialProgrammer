@@ -1,0 +1,37 @@
+﻿<form id="createProfileForm" class="form">
+    <div class="title">Welcome,<br><span>sign up to continue</span></div>
+    <input type="email" value="@User.Identity.Name" placeholder="Name" name="Name" class="input">
+    <input placeholder="Description" name="Description" class="input">
+    <button id="createProfile" class="button-confirm">Let`s go →</button>
+</form>
+
+@section Scripts
+    {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#createProfile').on('click', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("CreateProfile", "Profile")',
+                data: $('#createProfileForm').serialize(),
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.responseJSON.description,
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            })
+        });
+    </script>
+}

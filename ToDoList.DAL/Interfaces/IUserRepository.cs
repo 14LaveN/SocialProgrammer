@@ -3,15 +3,17 @@ using SocialProgrammer.Domain.Entity;
 
 namespace SocialProgrammer.DAL.Interfaces;
 
-public interface IUserRepository
+public interface IUserRepository<T>
 {
-    Task<IEnumerable<UserEntity>> GetAllUsers();
+    Task<List<T>> GetAllAsync();
 
-    Task<UserEntity> GetUser(string id);
+    Task<T?> GetAsync(string id);
 
-    Task AddUser(UserEntity item);
+    Task<T?> GetNameAsync(string name);
 
-    Task<DeleteResult> RemoveUser(string id);
+    Task CreateAsync(T newUser);
 
-    //Task<UpdateResult> UpdateUser(string id, string body);
+    Task UpdateAsync(string id, T updatedBook);
+
+    Task RemoveAsync(string id);
 }

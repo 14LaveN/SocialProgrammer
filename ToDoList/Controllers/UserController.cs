@@ -1,75 +1,59 @@
 ﻿using ImageResizer.Plugins.Basic;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using SocialProgrammer.DAL.Interfaces;
 using SocialProgrammer.Domain.Entity;
+using SocialProgrammer.Domain.ViewModels.Account;
 using SocialProgrammer.Service.Implementations;
+using System.Security.Claims;
+using SocialProgrammer.Service.Interfaces;
 
 namespace SocialProgrammer.Controllers;
 
 public class UserController : Controller
 {
-    private readonly UserService booksService;
+    private readonly IUserService userService;
 
-    public UserController(UserService booksService) =>
-        this.booksService = booksService;
+    public UserController(IUserService userService) =>
+        this.userService = userService;
 
-    public IActionResult Index() => View();
+    public IActionResult RegisterForm() => View();
 
+    public IActionResult LoginForm() => View();
 
-    [HttpGet]
-    public async Task<List<UserEntity>> Get() =>
-        await booksService.GetAsync();
-
-    [HttpGet]
-    public async Task<ActionResult<UserEntity>> Get(string id)
+    [HttpPost]
+    public async Task<IActionResult> Register(RegisterViewModel registerViewmodel)
     {
-        var book = await booksService.GetAsync(id);
-
-        if (book is null)
+        var response = await userService.RegisterUser(registerViewmodel);
+        if (response.StatusCode == Domain.Enum.StatusCode.OK)
         {
-            return NotFound();
-        }
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(response.Data));
 
-        return book;
+            return RedirectToAction("ArticleForm", "Article");
+        }
+        return View(registerViewmodel);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post(UserEntity newBook)
+    public async Task<IActionResult> Login(LoginViewModel loginViewModel)
     {
-        await booksService.CreateAsync(newBook);
+        var response = await userService.LoginUser(loginViewModel);
+        if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        {
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(response.Data));
 
-        return CreatedAtAction(nameof(Get), new { id = newBook.Id }, newBook);
+            return RedirectToAction("ArticleForm", "Article");
+        }
+        return View(loginViewModel);
     }
 
-    [HttpPost]
-    public async Task<IActionResult> Update(string id, UserEntity updatedBook)
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Logout()
     {
-        var book = await booksService.GetAsync(id);
-
-        if (book is null)
-        {
-            return NotFound();
-        }
-
-        updatedBook.Id = book.Id;
-
-        await booksService.UpdateAsync(id, updatedBook);
-
-        return NoContent();
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> Delete(string id)
-    {
-        var book = await booksService.GetAsync(id);
-
-        if (book is null)
-        {
-            return NotFound();
-        }
-
-        await booksService.RemoveAsync(id);
-
-        return NoContent();
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        return RedirectToAction("ArticleForm", "Article");
     }
 }

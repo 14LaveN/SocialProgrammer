@@ -13,4 +13,12 @@ public class Settings
     public string Database { get; set; } = null!;
 
     public string UsersCollectionName { get; set; } = null!;
+
+    public string ProfilesCollectionName { get; set;} = null!;
+
+    public string ArticlesCollectionName { get; set;} = null!;
+
+    public string LikesCollectionName { get; set; } = null!;
+
+    public string CommentsCollectionName { get; set; } = null!;
 }

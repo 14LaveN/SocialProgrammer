@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RYkZivN8DP84A8CQ/6fA9jNp12/2pH0Ns236IkUTdsL13s1BObFBQlnmhYAvQ/g4Yj+Ffe6cZMHWubdzHH9wKw==",
+  "dgSpecHash": "bO5cJK7XikaP6GYBQWA+P/wyuPSijMK3mt94V6DB4feb/3kzgCYa9m0xtBH4NhzpJAMtp3sGiURiunRfEBKNKA==",
   "success": true,
   "projectFilePath": "E:\\VS2022\\SocialProgrammer\\ToDoList\\SocialProgrammer.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,9 @@
     "C:\\Users\\Laven\\.nuget\\packages\\mongodb.driver\\2.21.0\\mongodb.driver.2.21.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\mongodb.driver.core\\2.21.0\\mongodb.driver.core.2.21.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\nlog\\5.2.3\\nlog.5.2.3.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\nlog.extensions.logging\\5.3.3\\nlog.extensions.logging.5.3.3.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.3\\nlog.web.aspnetcore.5.3.3.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

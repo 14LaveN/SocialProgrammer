@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +10,15 @@ namespace SocialProgrammer.Domain.Entity;
 
 public class CommentEntity
 {
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
 
-    public long ArticleId { get; set; }
+    public string? ArticleId { get; set; }
 
-    public string Author { get; set; }
+    public string Author { get; set; } = string.Empty;
 
-    public string Description { get; set; }
+    public string Description { get; set; } = string.Empty;
 
     public DateTime CreationDate { get; set; }
 }

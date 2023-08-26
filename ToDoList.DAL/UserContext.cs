@@ -8,7 +8,7 @@ namespace SocialProgrammer.DAL;
 
 public class UserContext
 {
-    private readonly IMongoDatabase database = null;
+    private readonly IMongoDatabase database = null!;
 
     public UserContext(IOptions<Settings> settings)
     {
@@ -19,5 +19,25 @@ public class UserContext
     public IMongoCollection<UserEntity> Users
     {
         get => database.GetCollection<UserEntity>("Users");
+    }
+
+    public IMongoCollection<ProfileEntity> Profiles
+    {
+        get => database.GetCollection<ProfileEntity>("Profiles");
+    }
+
+    public IMongoCollection<ArticleEntity> Articles
+    {
+        get => database.GetCollection<ArticleEntity>("Articles");
+    }
+
+    public IMongoCollection<LikeEntity> Likes
+    {
+        get => database.GetCollection<LikeEntity>("Likes");
+    }
+
+    public IMongoCollection<CommentEntity> Comments
+    {
+        get => database.GetCollection<CommentEntity>("Comments");
     }
 }

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\SocialProgrammer.bundle.scp.css"
     },
     {
+      "Id": "E:\\VS2022\\SocialProgrammer\\ToDoList\\wwwroot\\css\\StandartStyle.css",
+      "PackagePath": "staticwebassets\\css\\StandartStyle.css"
+    },
+    {
+      "Id": "E:\\VS2022\\SocialProgrammer\\ToDoList\\wwwroot\\css\\Tools.css",
+      "PackagePath": "staticwebassets\\css\\Tools.css"
+    },
+    {
       "Id": "E:\\VS2022\\SocialProgrammer\\ToDoList\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

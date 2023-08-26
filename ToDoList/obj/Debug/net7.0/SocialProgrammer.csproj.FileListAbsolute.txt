@@ -418,3 +418,7 @@ E:\VS2022\SocialProgrammer\ToDoList\obj\Debug\net7.0\refint\SocialProgrammer.dll
 E:\VS2022\SocialProgrammer\ToDoList\obj\Debug\net7.0\SocialProgrammer.pdb
 E:\VS2022\SocialProgrammer\ToDoList\obj\Debug\net7.0\SocialProgrammer.genruntimeconfig.cache
 E:\VS2022\SocialProgrammer\ToDoList\obj\Debug\net7.0\ref\SocialProgrammer.dll
+E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\NLog.dll
+E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\NLog.Web.AspNetCore.dll

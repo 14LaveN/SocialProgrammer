@@ -1,0 +1,65 @@
+﻿@using SocialProgrammer.Domain.Entity;
+@using SocialProgrammer.Domain.Enum
+@model IEnumerable<UserEntity>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*@if (Model.Count() == 0)
+{
+    @foreach (var item in Model)
+    {
+        <label>@item.Email</label>
+    }
+}*@s
+<h4 class="mb-3 text-muted">Создание задачи</h4>
+<form id="createUserForm">
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input name="Email" type="text" class="form-control"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input name="name" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <textarea name="Password" type="text" class="form-control" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password confirm</label>
+        <textarea name="ConfirmPassword" type="text" class="form-control" rows="3"></textarea>
+    </div>
+    <button id="createUser" class="btn btn-primary">Создать</button>
+</form>
+
+@section Scripts
+{
+    <script>     
+        $('#createUser').on('click', function (e) {
+            e.preventDefault();
+            const data = $('#createUserForm').serialize()
+            $.ajax({
+                url: '@Url.Action("Register", "User")',
+                type: 'POST',
+                data: data,
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (data) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: 'Ошибка валидации',
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            });
+        });
+    </script>
+}
