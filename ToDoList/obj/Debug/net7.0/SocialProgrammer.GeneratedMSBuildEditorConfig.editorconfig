@@ -20,8 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBcnRpY2xlRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/VS2022/SocialProgrammer/ToDoList/Views/BestArticles/BestArticlesForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVzdEFydGljbGVzXEJlc3RBcnRpY2xlc0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/VS2022/SocialProgrammer/ToDoList/Views/Comment/CommentForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDb21tZW50Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Message/MessageForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxNZXNzYWdlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Message/MessagesForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxNZXNzYWdlc0Zvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/VS2022/SocialProgrammer/ToDoList/Views/Profile/CreateProfileForm.cshtml]

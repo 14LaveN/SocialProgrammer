@@ -107,3 +107,454 @@
 2023-08-27 00:39:11.7235|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
 2023-08-27 00:39:13.9882|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
 2023-08-27 00:39:13.9882|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 13:21:21.4349|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 13:21:21.4838|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 13:21:21.4838|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 13:21:30.2465|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:21:30.2465|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:21:52.8839|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for register a user - Саша Пономарев |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-27 13:21:52.9803|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Register' was not found. Searched locations: /Views/User/Register.cshtml, /Views/Shared/Register.cshtml |url: https://localhost/User/Register|action: Register|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 13:21:52.9871|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Register' was not found. The following locations were searched:
+/Views/User/Register.cshtml
+/Views/Shared/Register.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Register|action: Register|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 13:21:54.0202|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:21:54.0202|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:21:57.9746|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономарев |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 13:21:57.9970|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/User/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 13:21:57.9970|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 13:21:58.5184|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономарев |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 13:21:58.5184|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/User/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 13:21:58.5184|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 13:21:59.3933|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:21:59.3933|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:05.0956|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 13:22:05.0956|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/User/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 13:22:05.0956|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 13:22:06.9163|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:06.9245|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:38.9105|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for register a user - Lavenka |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-27 13:22:39.0782|0|INFO|SocialProgrammer.Service.Implementations.UserService|User created - Lavenka |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-27 13:22:39.0814|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:39.0814|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:39.9560|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:39.9560|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:53.0225|0|INFO|SocialProgrammer.Service.Implementations.ProfileService|Request for create a profile - Lavenka |url: https://localhost/Profile/CreateProfile|action: CreateProfile|SocialProgrammer.Service.Implementations.ProfileService.CreateProfile
+2023-08-27 13:22:53.0785|0|INFO|SocialProgrammer.Service.Implementations.ProfileService|Profile created: Lavenka |url: https://localhost/Profile/CreateProfile|action: CreateProfile|SocialProgrammer.Service.Implementations.ProfileService.CreateProfile
+2023-08-27 13:22:55.9555|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:22:55.9555|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:23:18.1823|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an article - dfghdfhdfhgdhd |url: https://localhost/Article/CreateArticle|action: CreateArticle|SocialProgrammer.Service.Implementations.ArticleService.CreateArticle
+2023-08-27 13:23:18.2465|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Article created: dfghdfhdfhgdhd |url: https://localhost/Article/CreateArticle|action: CreateArticle|SocialProgrammer.Service.Implementations.ArticleService.CreateArticle
+2023-08-27 13:23:21.8193|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:23:21.8193|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:23:27.0024|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64eaf9e67144621edd8ebf28|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 13:23:27.0712|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64eaf9e67144621edd8ebf28|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 13:23:28.2680|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:23:28.2680|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:23:51.6036|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 13:23:51.6169|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 13:23:51.6169|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 13:23:55.5715|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:23:55.5715|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 13:24:51.3193|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 13:24:51.3385|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 13:24:51.3385|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 14:09:23.4514|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 14:09:23.4720|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 14:09:23.4720|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 14:09:27.4247|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'SocialProgrammer.Service.Interfaces.IMessageService' while attempting to activate 'SocialProgrammer.Controllers.MessageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Message/MessagesForm|action: MessagesForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 15:17:01.1823|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:17:01.2301|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:17:01.2301|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 15:17:06.9792|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 15:17:06.9792|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 15:17:10.6811|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 15:17:10.6910|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 15:17:26.5758|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:17:26.5912|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:17:26.5912|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 15:19:15.3033|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:19:15.3177|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:19:15.3177|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 15:19:28.0192|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for create a message - dfghghfdhdf |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-27 15:19:28.1070|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message created: dfghghfdhdf |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-27 15:38:32.0054|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:38:32.0054|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:38:32.0054|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 15:40:03.4286|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:40:03.4455|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:40:03.4455|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 15:40:42.5162|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:40:42.5317|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:40:42.5317|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 15:40:46.0687|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Linq.Enumerable+WhereListIterator`1[SocialProgrammer.Domain.Entity.MessageHistoryEntity]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[SocialProgrammer.Domain.Entity.MessageHistoryEntity]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method47(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Message/MessagesForm|action: MessagesForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 15:41:41.4247|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:41:41.4440|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 15:41:41.4440|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 20:35:10.7761|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 20:35:10.7939|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 20:35:10.7939|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 20:35:52.5028|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for create a message - авпрварв |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-27 20:35:52.6960|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message created: авпрварв |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-27 20:37:10.8311|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:37:10.8311|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:19.5877|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 20:38:19.6024|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 20:38:19.6024|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 20:38:26.7694|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:26.7694|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:34.9235|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:34.9235|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:39.1466|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:39.1466|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:52.7521|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Lox |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:38:52.8226|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/User/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 20:38:52.8226|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 20:38:54.5976|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:38:54.5976|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:01.4705|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:39:01.4705|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/User/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 20:39:01.4705|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 20:39:02.8490|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:02.8490|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:28.9642|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:39:28.9727|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/User/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-27 20:39:28.9727|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/User/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-27 20:39:29.7379|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:29.7379|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:41.9710|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for register a user - Саша Пономаревввв |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-27 20:39:42.0798|0|INFO|SocialProgrammer.Service.Implementations.UserService|User created - Саша Пономаревввв |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-27 20:39:42.0798|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:42.0798|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:43.0642|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:43.0642|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:46.8332|0|INFO|SocialProgrammer.Service.Implementations.ProfileService|Request for create a profile - Саша Пономаревввв |url: https://localhost/Profile/CreateProfile|action: CreateProfile|SocialProgrammer.Service.Implementations.ProfileService.CreateProfile
+2023-08-27 20:39:46.8968|0|INFO|SocialProgrammer.Service.Implementations.ProfileService|Profile created: Саша Пономаревввв |url: https://localhost/Profile/CreateProfile|action: CreateProfile|SocialProgrammer.Service.Implementations.ProfileService.CreateProfile
+2023-08-27 20:39:54.8299|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:39:54.8299|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:04.5239|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:40:04.5239|0|INFO|SocialProgrammer.Service.Implementations.UserService|User logined - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:40:04.5340|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:04.5340|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:05.9306|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:40:05.9306|0|INFO|SocialProgrammer.Service.Implementations.UserService|User logined - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:40:05.9397|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:05.9397|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:06.0745|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:40:06.0800|0|INFO|SocialProgrammer.Service.Implementations.UserService|User logined - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-27 20:40:06.0800|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:06.0800|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:41.1061|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:41.1134|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:47.3476|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 20:40:47.3476|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:05:33.4092|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:05:33.4319|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:05:33.4319|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:06:57.4474|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:06:57.4612|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:06:57.4612|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:07:34.9987|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:07:35.0122|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:07:35.0122|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:07:38.2877|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:38.2877|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:49.2086|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:49.2086|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:52.7268|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:52.7268|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:56.5519|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:56.5519|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:58.3944|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:07:58.3944|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:06.6274|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e89f410e8c17e35915b02d|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:06.6274|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e89f410e8c17e35915b02d|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:08.7568|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:08.7568|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:10.6602|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:10.6602|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:11.6768|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:11.6768|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:15.1004|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:15.1004|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:19.5890|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:19.5965|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:34.6469|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:08:34.6640|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:08:34.6640|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:08:38.1913|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:38.1913|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:41.0045|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:41.0045|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:43.0665|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:43.0831|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:44.6748|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:44.6748|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:08:46.2534|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:46.2789|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:47.6607|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for delete a comment from article - dfghdfhgfdhdfdfg |url: https://localhost/Comment/DeleteComment|action: DeleteComment|SocialProgrammer.Service.Implementations.CommentService.DeleteComment
+2023-08-27 21:08:47.7322|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment deleted: Lox 26.08.2023 18:39:05 |url: https://localhost/Comment/DeleteComment|action: DeleteComment|SocialProgrammer.Service.Implementations.CommentService.DeleteComment
+2023-08-27 21:08:49.5149|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:08:49.5210|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e89f39db6ec8e363d42b2f|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:09:56.0901|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:09:56.1104|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:09:56.1104|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:09:59.9715|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:09:59.9715|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:04.5972|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for create a comment to article - lox |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-27 21:10:04.6720|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment created: Саша Пономаревввв 27.08.2023 21:10:04 |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-27 21:10:06.8928|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:06.8928|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:10.8484|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:10:10.8484|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:10:12.7223|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:12.7223|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:16.5798|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:16.5798|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:18.2847|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:18.2847|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:20.0512|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:10:20.0512|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:10:24.9235|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for delete a comment from article - lox |url: https://localhost/Comment/DeleteComment|action: DeleteComment|SocialProgrammer.Service.Implementations.CommentService.DeleteComment
+2023-08-27 21:10:24.9527|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment deleted: Саша Пономаревввв 27.08.2023 15:10:04 |url: https://localhost/Comment/DeleteComment|action: DeleteComment|SocialProgrammer.Service.Implementations.CommentService.DeleteComment
+2023-08-27 21:10:24.9567|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:10:24.9567|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-27 21:10:26.5835|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:10:26.5835|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-27 21:14:00.7462|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:14:00.7642|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:14:00.7642|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:14:33.1231|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:14:33.1381|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-27 21:14:33.1381|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-27 21:15:03.5666|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.TimeoutException: A timeout occurred after 30000ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. [::1]:27017
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.Connect(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2023-08-27T15:15:00.3643046Z", LastUpdateTimestamp: "2023-08-27T15:15:00.3643054Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.ThrowTimeoutException(IServerSelector selector, ClusterDescription description)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedHelper.HandleCompletedTask(Task completedTask)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedAsync(IServerSelector selector, ClusterDescription description, Task descriptionChangedTask, TimeSpan timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(IServerSelector selector, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(ICluster cluster, ICoreSessionHandle session, IServerSelector selector, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, Boolean retryRequested, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at SocialProgrammer.DAL.Repositories.ProfileRepository.GetNameAsync(String name) in E:\VS2022\SocialProgrammer\ToDoList.DAL\Repositories\ProfileRepository.cs:line 38
+   at SocialProgrammer.Controllers.ProfileController.ProfileForm() in E:\VS2022\SocialProgrammer\ToDoList\Controllers\ProfileController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: ProfileForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke

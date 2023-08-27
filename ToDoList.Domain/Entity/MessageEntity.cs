@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +10,11 @@ namespace SocialProgrammer.Domain.Entity;
 
 public class MessageEntity
 {
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
+
+    public string? RecipientName { get; set; }
 
     public string Author { get; set; }
 

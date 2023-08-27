@@ -1,0 +1,46 @@
+﻿@using SocialProgrammer.Domain.Entity;
+@model IEnumerable<MessageEntity>?
+
+<form id="createMessageForm">
+    <input name="RecipientId" />
+    <input name="Author" value="@User.Identity.Name" />
+    <input name="Message" />
+    <button id="createMessage">Click</button>
+</form>
+
+@foreach (var item in Model)
+{
+    <h1>@item.Author</h1>
+    <h1>@item.Message</h1>
+}
+
+@section Scripts
+    {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#createMessage').on('click', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("CreateMessage", "Message")',
+                data: $('#createMessageForm').serialize(),
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.responseJSON.description,
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            })
+        });
+    </script>
+}

@@ -40,4 +40,14 @@ public class UserContext
     {
         get => database.GetCollection<CommentEntity>("Comments");
     }
+
+    public IMongoCollection<MessageEntity> Messages
+    {
+        get => database.GetCollection<MessageEntity>("Messages");
+    }
+
+    public IMongoCollection<MessageHistoryEntity> MessagesHistory
+    {
+        get => database.GetCollection<MessageHistoryEntity>("MessagesHistory");
+    }
 }

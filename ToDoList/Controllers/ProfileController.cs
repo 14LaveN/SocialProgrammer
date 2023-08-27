@@ -27,10 +27,12 @@ public class ProfileController : Controller
     public async Task<IActionResult> ProfileForm()
     {
         var profile = await profileRepository.GetNameAsync(User.Identity.Name);
+
         if (profile is null)
         {
             return RedirectToAction("CreateProfileForm", "Profile");
         }
+        
         return View(profile);
     }
 
@@ -38,22 +40,13 @@ public class ProfileController : Controller
     public async Task<IActionResult> CreateProfile(CreateProfileViewModel createProfileViewModel)
     {
         var response = await profileService.CreateProfile(createProfileViewModel);
+
         if (response.StatusCode == Domain.Enum.StatusCode.OK)
         {
             var user = await userRepository.GetNameAsync(User.Identity.Name);
             user.IsProfileCreated = true;
             await userRepository.UpdateAsync(user.Id, user);
-            return Ok(new { description = response.Description });
-        }
-        return BadRequest(new { description = response.Description });
-    }
 
-    [HttpPost]
-    public async Task<IActionResult> DeleteProfile(string id)
-    {
-        var response = await profileService.DeleteProfile(id);
-        if (response.StatusCode == Domain.Enum.StatusCode.OK)
-        {
             return Ok(new { description = response.Description });
         }
         return BadRequest(new { description = response.Description });

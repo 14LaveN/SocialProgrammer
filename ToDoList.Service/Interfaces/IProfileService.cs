@@ -12,6 +12,4 @@ namespace SocialProgrammer.Service.Interfaces;
 public interface IProfileService
 {
     Task<IBaseResponse<ProfileEntity>> CreateProfile(CreateProfileViewModel createProfileViewModel);
-
-    Task<IBaseResponse<ProfileEntity>> DeleteProfile(string id);
 }

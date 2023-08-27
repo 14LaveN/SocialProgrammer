@@ -21,4 +21,8 @@ public class Settings
     public string LikesCollectionName { get; set; } = null!;
 
     public string CommentsCollectionName { get; set; } = null!;
+
+    public string MessagesCollectionName { get; set; } = null!;
+
+    public string MessagesHistoryCollectionName { get; set; } = null!;
 }

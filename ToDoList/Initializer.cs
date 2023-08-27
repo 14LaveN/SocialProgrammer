@@ -17,6 +17,8 @@ namespace SocialProgrammer
             services.AddScoped<ILikeRepository<LikeEntity>, LikeRepository>();
             services.AddScoped<IArticleRepository<ArticleEntity>, ArticleRepository>();
             services.AddScoped<ICommentRepository<CommentEntity>, CommentRepository>();
+            services.AddScoped<IMessageRepository<MessageEntity>, MessageRepository>();
+            services.AddScoped<IMessageHistoryRepository<MessageHistoryEntity>, MessageHistoryRepository>();
         }
 
         public static void InitializeServices(this IServiceCollection services)
@@ -25,6 +27,7 @@ namespace SocialProgrammer
             services.AddScoped<IProfileService, ProfileService>();
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICommentService, CommentService>();
+            services.AddScoped<IMessageService, MessageService>();
         }
     }
 }

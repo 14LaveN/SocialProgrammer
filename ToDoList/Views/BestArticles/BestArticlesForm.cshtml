@@ -1,0 +1,55 @@
+﻿@using SocialProgrammer.Domain.Entity;
+@model List<ArticleEntity>
+
+<link rel="stylesheet" href="~/css/Tools.css"/>
+
+@foreach(var item in Model)
+{
+	<h1>@item.Author</h1>
+	<h1>@item.Title</h1>
+	<h1>@item.Description</h1>
+	<h1>Comments: @item.CommentsCount</h1>
+	<h1>Likes: @item.LikesCount</h1>
+    
+    @if (User.Identity.IsAuthenticated)
+    {
+        <form asp-controller="Like" asp-action="AddLike" asp-route-id="@item.Id">
+            <button>Like</button>
+        </form>
+        <form id="createCommentForm">
+            <input value="@User.Identity.Name" name="Author" />
+            <input name="Description" />
+            <input class="inputAuthor" value="@item.Id" name="ArticleId" />
+            <button id="createComment">Create</button>
+        </form>
+        <a asp-controller="Comment" asp-action="CommentForm" asp-route-id="@item.Id">Comments</a>
+    }
+}
+@section Scripts {
+<script>
+    $('#createComment').on('click', function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: '@Url.Action("CreateComment", "Comment")',
+            data: $('#createCommentForm').serialize(),
+            success: function (response) {
+                Swal.fire({
+                    title: 'Информация',
+                    text: response.description,
+                    icon: 'success',
+                    confirmButtonText: 'Окей'
+                })
+            },
+            error: function (response) {
+                Swal.fire({
+                    title: 'Информация',
+                    text: response.responseJSON.description,
+                    icon: 'error',
+                    confirmButtonText: 'Окей'
+                })
+            }
+        })
+    });
+</script>
+}

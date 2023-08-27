@@ -68,43 +68,4 @@ public class ProfileService : IProfileService
             };
         }
     }
-
-    public async Task<IBaseResponse<ProfileEntity>> DeleteProfile(string id)
-    {
-        try
-        {
-            var profile = await profileRepository.GetAsync(id);
-
-            logger.LogInformation($"Request for create a profile - {profile.Name}");
-
-            if (profile == null)
-            {
-                return new BaseResponse<ProfileEntity>()
-                {
-                    Description = "Profile with the same name not found",
-                    StatusCode = StatusCode.TaskIsHasAlready
-                };
-            }
-
-            await profileRepository.RemoveAsync(id);
-
-            logger.LogInformation($"Profile deleted: {profile.Name}");
-
-            return new BaseResponse<ProfileEntity>()
-            {
-                Description = "Profile deleted",
-                StatusCode = StatusCode.OK
-            };
-
-        }
-        catch (Exception exception)
-        {
-            logger.LogError(exception, $"[ProfileService.DeleteProfile]: {exception.Message}");
-            return new BaseResponse<ProfileEntity>()
-            {
-                Description = exception.Message,
-                StatusCode = StatusCode.InternalServerError
-            };
-        }
-    }
 }

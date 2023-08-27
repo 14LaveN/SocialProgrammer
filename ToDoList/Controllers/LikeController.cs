@@ -70,7 +70,6 @@ public class LikeController : Controller
                 Description = "Add like",
                 StatusCode = Domain.Enum.StatusCode.OK
             };
-
         }
         catch (Exception exception)
         {

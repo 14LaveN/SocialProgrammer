@@ -47,14 +47,14 @@ public class CommentController : Controller
     public async Task<IActionResult> DeleteComment(string articleId, string commentId)
     {
         var comment = await commentRepository.GetAsync(commentId);
-        var response = await commentService.DeleteComment(articleId, commentId);
         if (comment.Author == User.Identity.Name)
         {
+            var response = await commentService.DeleteComment(articleId, commentId);
             if (response.StatusCode == Domain.Enum.StatusCode.OK)
             {
                 return Redirect($"https://localhost:44333/Comment/CommentForm/{articleId}");
             }
         }
-        return BadRequest(new { description = response.Description });
+        return Redirect($"https://localhost:44333/Comment/CommentForm/{articleId}");
     }
 }

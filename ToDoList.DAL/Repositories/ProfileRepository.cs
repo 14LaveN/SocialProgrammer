@@ -32,7 +32,7 @@ public class ProfileRepository : IProfileRepository<ProfileEntity>
         await profilesCollection.Find(_ => true).ToListAsync();
 
     public async Task<ProfileEntity?> GetAsync(string id) =>
-        await profilesCollection.Find(x => x.id == id).FirstOrDefaultAsync();
+        await profilesCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
 
     public async Task<ProfileEntity?> GetNameAsync(string name) =>
         await profilesCollection.Find(x => x.Name == name).FirstOrDefaultAsync();
@@ -41,8 +41,8 @@ public class ProfileRepository : IProfileRepository<ProfileEntity>
         await profilesCollection.InsertOneAsync(newProfile);
 
     public async Task UpdateAsync(string id, ProfileEntity updatedProfile) =>
-        await profilesCollection.ReplaceOneAsync(x => x.id == id, updatedProfile);
+        await profilesCollection.ReplaceOneAsync(x => x.Id == id, updatedProfile);
 
     public async Task RemoveAsync(string id) =>
-        await profilesCollection.DeleteOneAsync(x => x.id == id);
+        await profilesCollection.DeleteOneAsync(x => x.Id == id);
 }

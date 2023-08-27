@@ -1,0 +1,11 @@
+﻿@using SocialProgrammer.Domain.Entity;
+@model List<MessageHistoryEntity>?
+
+@foreach(var item in Model)
+{
+	<form>
+		<h1>Reciepent: @item.ReciepentId</h1>
+		<h1>Author: @item.Author</h1>
+		<a asp-controller="Message" asp-action="MessageForm" asp-route-recipientName="@item.ReciepentId">Enter</a>
+	</form>
+}
