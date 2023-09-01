@@ -25,4 +25,6 @@ public class Settings
     public string MessagesCollectionName { get; set; } = null!;
 
     public string MessagesHistoryCollectionName { get; set; } = null!;
+    
+    public string SearchesCollectionName { get; set; } = null!;
 }

@@ -16,4 +16,18 @@
       <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Implementations\SearchService.cs\**" />
+      <Compile Remove="Implementations\SearchService.cs" />
+      <Compile Remove="Interfaces\ISearchService.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Implementations\SearchService.cs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Implementations\SearchService.cs\**" />
+    </ItemGroup>
+
 </Project>

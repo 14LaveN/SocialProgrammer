@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\Tools.css"
     },
     {
+      "Id": "E:\\VS2022\\SocialProgrammer\\ToDoList\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
       "Id": "E:\\VS2022\\SocialProgrammer\\ToDoList\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

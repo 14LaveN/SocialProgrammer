@@ -14,4 +14,6 @@ public interface IMessageService
     Task<IBaseResponse<MessageEntity>> CreateMessage(MessageViewModel messageViewModel);
 
     Task<IBaseResponse<MessageEntity>> DeleteMessage(string messageId);
+
+    Task<IBaseResponse<MessageEntity>> UpdateMessage(string messageId, MessageViewModel messageViewModel);
 }

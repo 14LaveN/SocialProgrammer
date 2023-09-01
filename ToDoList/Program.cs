@@ -1,13 +1,6 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using MongoDB.Driver;
 using NLog.Web;
 using SocialProgrammer;
-using SocialProgrammer.DAL;
-using SocialProgrammer.DAL.Interfaces;
-using SocialProgrammer.DAL.Repositories;
-using SocialProgrammer.Domain.Entity;
 using SocialProgrammer.Domain.ViewModels.MongoSettings;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,8 +16,8 @@ builder.Services.Configure<Settings>(
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 .AddCookie(options =>
 {
-    options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/User/LoginForm");
-    options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/User/LoginForm");
+    options.LoginPath = new PathString("/User/LoginForm");
+    options.AccessDeniedPath = new PathString("/User/LoginForm");
 });
 
 builder.Logging.ClearProviders().SetMinimumLevel(LogLevel.Trace);

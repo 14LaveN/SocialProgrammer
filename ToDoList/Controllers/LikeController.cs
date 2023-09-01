@@ -3,9 +3,6 @@ using SocialProgrammer.DAL.Interfaces;
 using SocialProgrammer.DAL.Repositories;
 using SocialProgrammer.Domain.Entity;
 using SocialProgrammer.Domain.Response;
-using SocialProgrammer.Service.Implementations;
-using SocialProgrammer.Service.Interfaces;
-using SocialProgrammer.Domain.Enum;
 using Microsoft.IdentityModel.Tokens;
 
 namespace SocialProgrammer.Controllers;

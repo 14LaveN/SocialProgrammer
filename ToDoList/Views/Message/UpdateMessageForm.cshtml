@@ -1,0 +1,42 @@
+﻿@using SocialProgrammer.Domain.Entity;
+@model MessageEntity
+
+<div class="modal fade" id="my-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form id="updateMessageForm">
+                    <input value="@Model.Id" name="messageId" />
+                    <input value="@Model.RecipientName" name="RecipientId" />
+                    <input class="inputAuthor" name="Author" value="@User.Identity.Name" />
+                    <input value="@Model.Message" name="Message" />
+                    <button id="updateMessage">Update</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <form method="get" asp-controller="Message" asp-action="MessageForm" asp-route-messageId="@Model.Id">
+                    <button>Закрыть</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#my-modal').modal('show');
+        });
+    </script>
+    <script>
+        $('#updateMessage').on('click', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("UpdateMessage", "Message")',
+                data: $('#updateMessageForm').serialize()
+            })
+        });
+    </script>
+}

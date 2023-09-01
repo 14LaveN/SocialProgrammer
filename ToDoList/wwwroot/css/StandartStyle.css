@@ -1,4 +1,21 @@
-﻿.inputAuthor {
-	width: 0px;
-	height: 0px;
+﻿
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	background: linear-gradient(102deg, #d3d3d4 17.38%, #373b3e 81.25%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.inputAuthor {
+	width: 0;
+	height: 0;
+	display: none;
 }

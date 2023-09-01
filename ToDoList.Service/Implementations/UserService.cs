@@ -38,6 +38,7 @@ public class UserService : IUserService
         try
         {
             logger.LogInformation($"Request for register a user - {registerViewModel.Name}");
+
             var user = await userRepository.GetNameAsync(registerViewModel.Name);
             if (user != null)
             {

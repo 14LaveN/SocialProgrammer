@@ -50,4 +50,9 @@ public class UserContext
     {
         get => database.GetCollection<MessageHistoryEntity>("MessagesHistory");
     }
+    
+    public IMongoCollection<SearchEntity> Searches
+    {
+        get => database.GetCollection<SearchEntity>("Searches");
+    }
 }

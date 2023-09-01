@@ -1,21 +1,36 @@
 ﻿@using SocialProgrammer.Domain.Entity;
 @model IEnumerable<MessageEntity>?
 
+<link rel="stylesheet" href="~/css/StandartStyle.css"/>
+
 <form id="createMessageForm">
-    <input name="RecipientId" />
-    <input name="Author" value="@User.Identity.Name" />
+    <input value="@Model.FirstOrDefault(x => x.RecipientName == User.Identity.Name).Author" name="RecipientId" />
+    <input class="inputAuthor" name="Author" value="@User.Identity.Name" />
     <input name="Message" />
     <button id="createMessage">Click</button>
+</form>
+<form method="post" enctype="multipart/form-data" action="/Photo/Upload">
+    <input type="file" name="photo" />
+    <input type="submit" value="Upload" />
 </form>
 
 @foreach (var item in Model)
 {
     <h1>@item.Author</h1>
     <h1>@item.Message</h1>
+    <form asp-controller="Message" asp-route-messageId="@item.Id" asp-action="DeleteMessage">
+        <button>Click</button>
+    </form>
+    if(item.Author == User.Identity.Name)
+    {
+        <form asp-controller="Message" asp-route-messageId="@item.Id" asp-action="UpdateMessageForm">
+            <button>Открыть всплывающее окно</button>
+        </form>
+    }
 }
 
 @section Scripts
-    {
+  {
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         $('#createMessage').on('click', function (e) {
@@ -43,4 +58,5 @@
             })
         });
     </script>
+    
 }

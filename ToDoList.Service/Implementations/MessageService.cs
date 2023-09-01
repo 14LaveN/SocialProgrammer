@@ -59,8 +59,16 @@ public class MessageService : IMessageService
                 ReciepentId = messageViewModel.RecipientId
             };
 
+            var messagesHistory = await messageHistoryRepository.GetAllAsync();
+            var messagesHistoryWithDuplicates = messagesHistory.Where(x => x.Author == messageViewModel.Author
+                && x.ReciepentId == messageViewModel.RecipientId
+                || x.Author == messageViewModel.RecipientId 
+                && x.ReciepentId == messageViewModel.Author).ToList();
+
             messageHistory.Messages++;
-            await messageHistoryRepository.CreateAsync(messageHistory);
+
+            if (messagesHistoryWithDuplicates is null)
+                await messageHistoryRepository.CreateAsync(messageHistory);
             await messageRepository.CreateAsync(message);
 
             logger.LogInformation($"Message created: {message.Message}");
@@ -114,6 +122,49 @@ public class MessageService : IMessageService
         catch (Exception exception)
         {
             logger.LogError(exception, $"[MessageService.DeleteMessage]: {exception.Message}");
+            return new BaseResponse<MessageEntity>()
+            {
+                Description = exception.Message,
+                StatusCode = StatusCode.InternalServerError
+            };
+        }
+    }
+    public async Task<IBaseResponse<MessageEntity>> UpdateMessage(string messageId, MessageViewModel messageViewModel)
+    {
+        try
+        {
+            var message = await messageRepository.GetAsync(messageId);
+
+            logger.LogInformation($"Request for update a message - {message.Message}");
+
+            if (message == null)
+            {
+                return new BaseResponse<MessageEntity>()
+                {
+                    Description = "Message with the same id not found",
+                    StatusCode = StatusCode.TaskIsHasAlready
+                };
+            }
+
+            message.Message = messageViewModel.Message;
+            message.Author = messageViewModel.Author;
+            message.CreationDate = DateTime.Now;
+            message.RecipientName = messageViewModel.RecipientId;
+
+            await messageRepository.UpdateAsync(messageId, message);
+
+            logger.LogInformation($"Message updated: {message.Message}");
+
+            return new BaseResponse<MessageEntity>()
+            {
+                Description = "Message updated",
+                StatusCode = StatusCode.OK
+            };
+
+        }
+        catch (Exception exception)
+        {
+            logger.LogError(exception, $"[MessageService.UpdateMessage]: {exception.Message}");
             return new BaseResponse<MessageEntity>()
             {
                 Description = exception.Message,

@@ -23,9 +23,9 @@ public class UserController : Controller
     public IActionResult LoginForm() => View();
 
     [HttpPost]
-    public async Task<IActionResult> Register(RegisterViewModel registerViewmodel)
+    public async Task<IActionResult> Register(RegisterViewModel registerViewModel)
     {
-        var response = await userService.RegisterUser(registerViewmodel);
+        var response = await userService.RegisterUser(registerViewModel);
         if (response.StatusCode == Domain.Enum.StatusCode.OK)
         {
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
@@ -33,7 +33,8 @@ public class UserController : Controller
 
             return RedirectToAction("ArticleForm", "Article");
         }
-        return View(registerViewmodel);
+        
+        return View(registerViewModel);
     }
 
     [HttpPost]

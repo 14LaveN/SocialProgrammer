@@ -6,13 +6,14 @@
     <title>@ViewData["Title"] - SocialProgrammer</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/layout.css" />
     <link rel="stylesheet" href="~/SocialProgrammer.styles.css" asp-append-version="true"/>
 </head>
 <body class="bg-light">
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Task" asp-action="Index">SocialProgrammer</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Article" asp-action="ArticleForm">SocialProgrammer</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,32 +22,37 @@
                 <ul class="navbar-nav flex-grow-1">
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li class="nav-item">
+                        <li class="layoutTitle">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Article" asp-action="ArticleForm">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="layoutTitle">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Profile" asp-action="ProfileForm">Profile</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="layoutTitle">
                             <a class="nav-link text-dark" asp-area="" asp-route-id="" asp-controller="Message" asp-action="MessagesForm">Messages</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="layoutTitle">
                             <a class="nav-link text-dark" asp-area="" asp-route-id="" asp-controller="BestArticles" asp-action="BestArticlesForm">Best Articles</a>
                         </li>
                     }
                     else
                     {
-                        <li class="nav-item">
+                        <li class="layoutTitle">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Article" asp-action="ArticleForm">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="layoutTitle">
                             <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="LoginForm">Login</a>
                         </li>
-                        <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-route-id="" asp-controller="BestArticles" asp-action="BestArticlesForm">Best Articles</a>
+                        <li class="layoutTitle">
+                            <a class="nav-link text-dark" asp-area="" asp-route-id="" asp-controller="BestArticles" asp-action="BestArticlesForm">Best Articles</a>
                         </li>
                     }
-                    </ul>
+                </ul>
+            </div>
+            <div class="searchLine">
+                <form asp-controller="Search" asp-action="GetResult">
+                    <input type="text">
+                </form>
             </div>
         </div>
     </nav>

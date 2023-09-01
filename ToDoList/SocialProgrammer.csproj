@@ -20,4 +20,25 @@
       <ProjectReference Include="..\ToDoList.Service\SocialProgrammer.Service.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\photos\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Pages\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Pages\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Pages\**" />
+      <Content Remove="wwwroot\js\ArticleScript.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Pages\**" />
+    </ItemGroup>
+
 </Project>

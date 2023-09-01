@@ -1,0 +1,457 @@
+2023-08-31 09:52:31.2129|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:52:31.2374|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:52:31.2377|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 09:53:01.4518|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:53:01.4690|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:53:01.4690|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 09:53:22.2258|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:53:22.2258|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:53:22.2371|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 09:53:55.5438|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:53:55.5606|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:53:55.5606|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 09:54:52.3001|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:54:52.3151|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:54:52.3151|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 09:55:37.7262|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:55:37.7431|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 09:55:37.7431|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 12:59:54.8698|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 12:59:54.9086|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 12:59:54.9086|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:00:38.2852|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Message_UpdateMessageForm.<ExecuteAsync>b__9_0() in E:\VS2022\SocialProgrammer\ToDoList\Views\Message\UpdateMessageForm.cshtml:line 9
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Message_UpdateMessageForm.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Message/UpdateMessageForm|action: UpdateMessageForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-31 13:01:47.8823|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:01:47.9707|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:01:47.9707|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:01:54.3566|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SocialProgrammer.Controllers.MessageController.UpdateMessageForm(String messageId) in E:\VS2022\SocialProgrammer\ToDoList\Controllers\MessageController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Message/UpdateMessageForm|action: UpdateMessageForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-31 13:02:17.3010|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:02:17.3167|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:02:17.3167|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:02:23.3041|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SocialProgrammer.Controllers.MessageController.UpdateMessageForm(String messageId) in E:\VS2022\SocialProgrammer\ToDoList\Controllers\MessageController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Message/UpdateMessageForm|action: UpdateMessageForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-31 13:02:40.5542|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:02:40.5743|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:02:40.5743|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:03:05.9097|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:03:05.9097|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:03:05.9241|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:03:37.4848|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:03:37.4999|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:03:37.4999|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:04:18.2109|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:04:18.2258|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:04:18.2258|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:05:06.4630|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:05:06.4788|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:05:06.4788|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:05:34.6977|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:05:34.7128|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:05:34.7128|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:06:14.8740|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - hjgfhjfghjgfhj |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:14.9797|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:15.5686|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:15.5831|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:15.7224|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:15.7224|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:15.8643|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:18.3829|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:06:35.8446|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:06:35.8612|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:06:35.8612|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:07:15.5725|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - penis |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:15.6272|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:15.7133|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:15.7133|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:15.9296|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:15.9296|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:16.0736|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:16.0736|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:16.2078|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:07:16.2216|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:08:19.1082|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:08:19.1245|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:08:19.1245|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:09:38.4583|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:09:38.4740|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:09:38.4740|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:11:37.8988|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:11:37.9140|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:11:37.9140|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:15:37.9977|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:15:38.0131|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:15:38.0131|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:15:56.5342|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:15:56.5342|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:15:56.5342|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:16:04.6704|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:16:04.7255|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:16:09.2691|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piska |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:16:09.2691|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piskahjkghjkhgkhgjk |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 13:16:25.7222|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for create a message - ttjghfjgfj |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-31 13:16:25.7437|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message created: ttjghfjgfj |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-31 13:20:23.0860|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:20:23.1046|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:20:23.1046|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:20:43.0650|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Upload' was not found. Searched locations: /Views/Photo/Upload.cshtml, /Views/Shared/Upload.cshtml |url: https://localhost/Photo/Upload|action: Upload|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-31 13:20:43.0650|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Upload' was not found. The following locations were searched:
+/Views/Photo/Upload.cshtml
+/Views/Shared/Upload.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Photo/Upload|action: Upload|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-31 13:20:48.9882|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\VS2022\SocialProgrammer\ToDoList\путь\к\папке\Снимок экрана 2023-04-11 172240.png'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at SocialProgrammer.Controllers.PhotoController.Upload(IFormFile photo) in E:\VS2022\SocialProgrammer\ToDoList\Controllers\PhotoController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Photo/Upload|action: Upload|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-31 13:21:43.3384|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:21:43.3529|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 13:21:43.3529|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 13:21:55.8665|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Upload' was not found. Searched locations: /Views/Photo/Upload.cshtml, /Views/Shared/Upload.cshtml |url: https://localhost/Photo/Upload|action: Upload|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-31 13:21:55.8665|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Upload' was not found. The following locations were searched:
+/Views/Photo/Upload.cshtml
+/Views/Shared/Upload.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Photo/Upload|action: Upload|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-31 14:21:04.5236|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 14:21:04.5428|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 14:21:04.5428|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 14:21:28.7060|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 14:21:28.7060|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 14:21:28.7060|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 14:21:33.2522|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:33.2556|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:48.2848|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64eb7611d563e9db25b8f0f1|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 14:21:48.3599|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64eb7611d563e9db25b8f0f1|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 14:21:50.0658|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:50.0658|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:51.7132|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:51.7239|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:53.0656|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 14:21:53.0656|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 14:21:55.0103|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:55.0189|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:21:59.8669|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for create a comment to article - lox |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 14:21:59.9794|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment created: Саша Пономаревввв 31.08.2023 14:21:59 |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 14:22:01.3780|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 14:22:01.3780|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 14:22:02.8958|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:02.8958|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:09.6608|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:09.6608|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:11.5692|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:11.5692|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:13.1118|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:13.1118|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:15.2253|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 14:22:15.2253|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 15:36:57.5047|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:36:57.5417|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:36:57.5417|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:37:11.4240|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 15:37:11.4240|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 15:37:21.8497|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - piskahjkghjkhgkhgjk |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 15:37:21.9354|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: piskahjkghjkhgkhgjk |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 15:38:15.3276|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:38:15.3426|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:38:15.3426|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:40:50.8338|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:40:50.8537|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:40:50.8537|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:41:30.6922|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:41:30.6922|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:41:30.6922|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:41:56.8707|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:41:56.8860|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:41:56.8860|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:42:22.4751|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:42:22.4924|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:42:22.4924|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:42:40.4957|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:42:40.5104|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:42:40.5104|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:44:51.3857|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:44:51.4005|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:44:51.4005|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 15:45:10.3719|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for update a message - ttjghfjgfj |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 15:45:10.4302|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message updated: ttjghfjgfjlox |url: https://localhost/Message/UpdateMessage|action: UpdateMessage|SocialProgrammer.Service.Implementations.MessageService.UpdateMessage
+2023-08-31 15:47:41.6824|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:47:41.6978|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 15:47:41.6978|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 16:00:34.4019|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 16:00:34.4187|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 16:00:34.4187|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 16:10:32.0848|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5047 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-08-31 16:10:32.0848|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 16:10:32.0848|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 16:10:32.0848|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 16:10:32.5253|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/|action: |Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.TryGetHttpsPort
+2023-08-31 16:10:39.6782|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 16:10:46.5339|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 16:10:46.5559|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 16:10:46.5559|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 16:10:52.3004|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 16:10:52.3004|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 16:10:56.9134|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 19:00:03.3932|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:00:03.4603|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:00:03.4603|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:00:08.3593|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 19:00:19.1161|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:00:19.1161|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:00:19.1161|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:00:19.5862|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:19.5862|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:24.6287|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:24.6287|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:34.3315|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for create a comment to article - вапрварав |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 19:00:34.4436|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment created: Саша Пономаревввв 31.08.2023 19:00:34 |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 19:00:54.6035|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:54.6035|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:59.9246|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:00:59.9246|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:01:40.9397|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 19:02:04.3474|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:02:04.3671|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:02:04.3671|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:02:11.3167|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:11.3167|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:18.5194|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:18.5194|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:25.4345|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:25.4345|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:27.6920|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 19:02:45.8794|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:02:45.8794|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:02:45.8794|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:02:51.1366|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:51.1366|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:58.6127|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:02:58.6127|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:06.3776|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:06.3776|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:11.6275|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64eb7611d563e9db25b8f0f1|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 19:03:11.6482|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64eb7611d563e9db25b8f0f1|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 19:03:13.5437|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:13.5437|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:19.6009|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64eb7611d563e9db25b8f0f1|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 19:03:19.6009|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64eb7611d563e9db25b8f0f1|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 19:03:20.7372|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:20.7372|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:24.1913|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:24.1913|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:03:29.5239|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 19:04:23.5973|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:04:23.6295|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:04:23.6295|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:04:28.8343|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:28.8343|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:39.5200|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an article - gfhjgfhgfjgfjgfhhjfg |url: https://localhost/Article/CreateArticle|action: CreateArticle|SocialProgrammer.Service.Implementations.ArticleService.CreateArticle
+2023-08-31 19:04:39.6061|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Article created: gfhjgfhgfjgfjgfhhjfg |url: https://localhost/Article/CreateArticle|action: CreateArticle|SocialProgrammer.Service.Implementations.ArticleService.CreateArticle
+2023-08-31 19:04:41.4416|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:41.4416|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:52.0814|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:52.0814|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:52.9254|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:52.9254|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:58.1920|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:58.1920|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:59.1996|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:04:59.2068|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:07.3038|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:07.3038|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:30.1516|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:30.1948|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:33.4908|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:33.4908|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:45.8465|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-31 19:05:45.8465|0|INFO|SocialProgrammer.Service.Implementations.UserService|User logined - Саша Пономаревввв |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-31 19:05:45.8622|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:45.8622|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:46.7407|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:46.7407|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:49.0236|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:05:49.0236|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:06:28.0208|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:06:28.0208|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:07:31.7276|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:07:31.7472|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:07:31.7472|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:07:37.8413|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:07:37.8413|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:08:59.7882|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:08:59.8068|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:08:59.8068|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:09:05.5081|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:09:05.5081|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:09:06.8380|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:09:06.8461|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:15:42.1314|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:15:42.1575|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:15:42.1575|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:15:55.8793|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for create a message - вапрварва |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-31 19:15:56.0721|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message created: вапрварва |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-31 19:16:11.6029|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Request for create a message - вапавыппыва |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-31 19:16:11.6029|0|INFO|SocialProgrammer.Service.Implementations.MessageService|Message created: вапавыппыва |url: https://localhost/Message/CreateMessage|action: CreateMessage|SocialProgrammer.Service.Implementations.MessageService.CreateMessage
+2023-08-31 19:16:36.6283|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
+2023-08-31 19:16:51.0404|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:16:51.0607|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-31 19:16:51.0607|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\SocialProgrammer\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-31 19:17:02.8567|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:02.8567|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:19.1136|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for register a user - Саша Пономарев |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-31 19:17:20.3995|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:20.3995|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:28.1596|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for login a user - Саша Пономарев |url: https://localhost/User/Login|action: Login|SocialProgrammer.Service.Implementations.UserService.LoginUser
+2023-08-31 19:17:28.9430|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:28.9430|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:41.1554|0|INFO|SocialProgrammer.Service.Implementations.UserService|Request for register a user - Loxloxlox |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-31 19:17:41.2673|0|INFO|SocialProgrammer.Service.Implementations.UserService|User created - Loxloxlox |url: https://localhost/User/Register|action: Register|SocialProgrammer.Service.Implementations.UserService.RegisterUser
+2023-08-31 19:17:41.2693|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:41.2693|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:42.2150|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:42.2225|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:45.2701|0|INFO|SocialProgrammer.Service.Implementations.ProfileService|Request for create a profile - Loxloxlox |url: https://localhost/Profile/CreateProfile|action: CreateProfile|SocialProgrammer.Service.Implementations.ProfileService.CreateProfile
+2023-08-31 19:17:45.3314|0|INFO|SocialProgrammer.Service.Implementations.ProfileService|Profile created: Loxloxlox |url: https://localhost/Profile/CreateProfile|action: CreateProfile|SocialProgrammer.Service.Implementations.ProfileService.CreateProfile
+2023-08-31 19:17:59.9436|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:17:59.9436|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:00.4318|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:00.4318|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:04.5138|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for create a comment to article - lox |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 19:18:04.6491|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment created: Loxloxlox 31.08.2023 19:18:04 |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 19:18:05.8177|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for create a comment to article - lox |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 19:18:05.8329|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Comment created: Loxloxlox 31.08.2023 19:18:05 |url: https://localhost/Comment/CreateComment|action: CreateComment|SocialProgrammer.Service.Implementations.CommentService.CreateComment
+2023-08-31 19:18:06.6471|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Request for get comments from article |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 19:18:06.6612|0|INFO|SocialProgrammer.Service.Implementations.CommentService|Get comments |url: https://localhost/Comment/CommentForm/64e898b2bf11b7313c65153c|action: CommentForm|SocialProgrammer.Service.Implementations.CommentService.GetAll
+2023-08-31 19:18:09.1823|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:09.1823|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:10.2875|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:10.2875|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:11.4629|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:11.4629|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:23.8552|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:23.8552|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:26.6770|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:26.6770|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/BestArticles/BestArticlesForm|action: BestArticlesForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:29.3831|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Request for create an articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
+2023-08-31 19:18:29.3831|0|INFO|SocialProgrammer.Service.Implementations.ArticleService|Get articles |url: https://localhost/Article/ArticleForm|action: ArticleForm|SocialProgrammer.Service.Implementations.ArticleService.GetAll
