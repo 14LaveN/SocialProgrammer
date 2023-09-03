@@ -1,42 +1,57 @@
 ﻿@using SocialProgrammer.Domain.Entity;
 @model MessageEntity
 
-<div class="modal fade" id="my-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <form id="updateMessageForm">
-                    <input value="@Model.Id" name="messageId" />
-                    <input value="@Model.RecipientName" name="RecipientId" />
-                    <input class="inputAuthor" name="Author" value="@User.Identity.Name" />
-                    <input value="@Model.Message" name="Message" />
-                    <button id="updateMessage">Update</button>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <form method="get" asp-controller="Message" asp-action="MessageForm" asp-route-messageId="@Model.Id">
-                    <button>Закрыть</button>
-                </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialProgrammer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/StandartStyle.css">
+</head>
+<body>
+    <div class="modal fade" id="my-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form id="updateMessageForm">
+                        <input value="@Model.Id" name="messageId" />
+                        <input value="@Model.RecipientName" name="RecipientId" />
+                        <input class="inputAuthor" name="Author" value="@User.Identity.Name" />
+                        <input value="@Model.Message" name="Message" />
+                        <button id="updateMessage">Update</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <form method="get" asp-controller="Message" asp-action="MessageForm" asp-route-messageId="@Model.Id">
+                        <button>Закрыть</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-@section Scripts
-{
-    <script>
-        $(document).ready(function () {
-            $('#my-modal').modal('show');
-        });
-    </script>
-    <script>
-        $('#updateMessage').on('click', function (e) {
-            e.preventDefault();
-            $.ajax({
-                type: 'POST',
-                url: '@Url.Action("UpdateMessage", "Message")',
-                data: $('#updateMessageForm').serialize()
-            })
-        });
-    </script>
-}
+        
+    @section Scripts
+    {
+        <script>
+                $(document).ready(function () {
+                    $('#my-modal').modal('show');
+                });
+            </script>
+        <script>
+                $('#updateMessage').on('click', function (e) {
+                    e.preventDefault();
+                    $.ajax({
+                        type: 'POST',
+                        url: '@Url.Action("UpdateMessage", "Message")',
+                        data: $('#updateMessageForm').serialize()
+                    })
+                });
+            </script>
+    }
+</body>
+</html>

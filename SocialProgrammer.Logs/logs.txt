@@ -1336,3 +1336,363 @@
 2023-08-31 19:16:50.6145 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
 2023-08-31 19:16:50.6145 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
 2023-08-31 19:16:50.6418 Info Configuration initialized.
+2023-09-02 15:19:22.6828 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 15:19:22.7045 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 15:19:22.7045 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 15:19:22.7121 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 15:19:22.7121 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 15:19:22.7347 Info Configuration initialized.
+2023-09-02 15:52:15.9496 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 15:52:15.9558 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 15:52:15.9558 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 15:52:15.9558 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 15:52:15.9728 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 15:52:15.9728 Info Configuration initialized.
+2023-09-02 15:52:57.1419 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 15:52:57.1477 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 15:52:57.1477 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 15:52:57.1477 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 15:52:57.1650 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 15:52:57.1789 Info Configuration initialized.
+2023-09-02 16:00:00.8934 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:00:00.9016 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:00:00.9016 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:00:00.9112 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:00:00.9112 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:00:00.9343 Info Configuration initialized.
+2023-09-02 16:00:58.4041 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:00:58.4100 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:00:58.4100 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:00:58.4100 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:00:58.4263 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:00:58.4263 Info Configuration initialized.
+2023-09-02 16:02:14.3039 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:02:14.3039 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:02:14.3039 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:02:14.3183 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:02:14.3183 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:02:14.3413 Info Configuration initialized.
+2023-09-02 16:03:25.3387 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:03:25.3387 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:03:25.3387 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:03:25.3536 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:03:25.3624 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:03:25.3624 Info Configuration initialized.
+2023-09-02 16:04:46.1428 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:04:46.1491 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:04:46.1491 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:04:46.1491 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:04:46.1667 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:04:46.1802 Info Configuration initialized.
+2023-09-02 16:06:20.3167 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:06:20.3167 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:06:20.3167 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:06:20.3167 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:06:20.3396 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:06:20.3537 Info Configuration initialized.
+2023-09-02 16:07:01.1113 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:07:01.1176 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:07:01.1176 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:07:01.1176 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:07:01.1338 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:07:01.1480 Info Configuration initialized.
+2023-09-02 16:08:02.2361 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:08:02.2418 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:08:02.2418 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:08:02.2418 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:08:02.2583 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:08:02.2719 Info Configuration initialized.
+2023-09-02 16:09:46.6345 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:09:46.6345 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:09:46.6345 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:09:46.6485 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:09:46.6485 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:09:46.6705 Info Configuration initialized.
+2023-09-02 16:11:03.2962 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:11:03.3027 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:11:03.3027 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:11:03.3027 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:11:03.3191 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:11:03.3325 Info Configuration initialized.
+2023-09-02 16:11:36.8006 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:11:36.8170 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:11:36.8170 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:11:36.8170 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:11:36.8372 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:11:36.8492 Info Configuration initialized.
+2023-09-02 16:15:35.5687 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:15:35.5687 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:15:35.5687 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:15:35.5829 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:15:35.5829 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:15:35.6066 Info Configuration initialized.
+2023-09-02 16:16:11.4656 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:16:11.4815 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:16:11.4815 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:16:11.4941 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:16:11.4941 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:16:11.5141 Info Configuration initialized.
+2023-09-02 16:17:43.8583 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:17:43.8652 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:17:43.8652 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:17:43.8652 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:17:43.8833 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:17:43.8983 Info Configuration initialized.
+2023-09-02 16:17:55.7182 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:17:55.7341 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:17:55.7341 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:17:55.7462 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:17:55.7541 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:17:55.7541 Info Configuration initialized.
+2023-09-02 16:19:59.7355 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:19:59.7416 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:19:59.7416 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:19:59.7416 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:19:59.7585 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:19:59.7723 Info Configuration initialized.
+2023-09-02 16:20:37.8638 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:20:37.8823 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:20:37.8823 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:20:37.8957 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:20:37.8957 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:20:37.9165 Info Configuration initialized.
+2023-09-02 16:24:44.9601 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:24:45.0267 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:24:45.0267 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:24:45.0393 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:24:45.0393 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:24:45.0560 Info Configuration initialized.
+2023-09-02 16:27:44.5515 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:27:44.5515 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:27:44.5515 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:27:44.5708 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:27:44.5708 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:27:44.5865 Info Configuration initialized.
+2023-09-02 16:29:31.8088 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:29:31.8275 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:29:31.8275 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:29:31.8418 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:29:31.8501 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:29:31.8630 Info Configuration initialized.
+2023-09-02 16:32:15.7783 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:32:15.7847 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:32:15.7847 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:32:15.7847 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:32:15.8024 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:32:15.8185 Info Configuration initialized.
+2023-09-02 16:34:17.3131 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:34:17.3300 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:34:17.3309 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:34:17.3309 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:34:17.3503 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:34:17.3622 Info Configuration initialized.
+2023-09-02 16:36:52.9543 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:36:52.9721 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:36:52.9721 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:36:52.9721 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:36:52.9934 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:36:53.0054 Info Configuration initialized.
+2023-09-02 16:39:40.8113 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:39:40.8170 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:39:40.8170 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:39:40.8170 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:39:40.8339 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:39:40.8484 Info Configuration initialized.
+2023-09-02 16:40:15.7433 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:40:15.7602 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:40:15.7602 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:40:15.7725 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:40:15.7725 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:40:15.7923 Info Configuration initialized.
+2023-09-02 16:42:16.3613 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:42:16.3674 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:42:16.3674 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:42:16.3674 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:42:16.3839 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:42:16.3974 Info Configuration initialized.
+2023-09-02 16:42:28.5667 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:42:28.5667 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:42:28.5667 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:42:28.5810 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:42:28.5810 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:42:28.6040 Info Configuration initialized.
+2023-09-02 16:43:24.7748 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:43:24.7748 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:43:24.7748 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:43:24.7897 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:43:24.7897 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:43:24.8126 Info Configuration initialized.
+2023-09-02 16:44:29.1650 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:44:29.1819 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:44:29.1819 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:44:29.1943 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:44:29.1943 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:44:29.2143 Info Configuration initialized.
+2023-09-02 16:45:24.3395 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:45:24.3570 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:45:24.3570 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:45:24.3686 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:45:24.3686 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:45:24.3886 Info Configuration initialized.
+2023-09-02 16:46:11.0689 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:46:11.0689 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:46:11.0689 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:46:11.0822 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:46:11.0822 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:46:11.1044 Info Configuration initialized.
+2023-09-02 16:46:39.5779 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:46:39.5978 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:46:39.5978 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:46:39.5978 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:46:39.6194 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:46:39.6319 Info Configuration initialized.
+2023-09-02 16:52:35.1642 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:52:35.1642 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:52:35.1642 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:52:35.1781 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:52:35.1781 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:52:35.2007 Info Configuration initialized.
+2023-09-02 16:59:08.5571 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 16:59:08.5571 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 16:59:08.5571 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 16:59:08.5716 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 16:59:08.5716 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 16:59:08.5939 Info Configuration initialized.
+2023-09-02 17:00:03.6139 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:00:03.6139 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:00:03.6139 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:00:03.6276 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:00:03.6276 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:00:03.6504 Info Configuration initialized.
+2023-09-02 17:02:09.9675 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:02:09.9736 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:02:09.9736 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:02:09.9736 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:02:09.9909 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:02:10.0044 Info Configuration initialized.
+2023-09-02 17:06:55.4733 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:06:55.4733 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:06:55.4733 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:06:55.4869 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:06:55.4869 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:06:55.5097 Info Configuration initialized.
+2023-09-02 17:08:13.6542 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:08:13.6600 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:08:13.6600 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:08:13.6600 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:08:13.6768 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:08:13.6906 Info Configuration initialized.
+2023-09-02 17:09:43.7660 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:09:43.7719 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:09:43.7719 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:09:43.7719 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:09:43.7883 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:09:43.8019 Info Configuration initialized.
+2023-09-02 17:10:19.8699 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:10:19.8699 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:10:19.8773 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:10:19.8773 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:10:19.8933 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:10:19.8933 Info Configuration initialized.
+2023-09-02 17:20:20.1538 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 17:20:20.1602 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 17:20:20.1602 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 17:20:20.1602 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 17:20:20.1775 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 17:20:20.1919 Info Configuration initialized.
+2023-09-02 22:02:52.9005 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 22:02:52.9863 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 22:02:52.9873 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 22:02:52.9873 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 22:02:53.0089 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 22:02:53.0205 Info Configuration initialized.
+2023-09-02 22:03:53.2009 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 22:03:53.2206 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 22:03:53.2216 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 22:03:53.2216 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 22:03:53.2430 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 22:03:53.2549 Info Configuration initialized.
+2023-09-02 22:04:40.4993 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 22:04:40.5051 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 22:04:40.5051 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 22:04:40.5051 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 22:04:40.5217 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 22:04:40.5355 Info Configuration initialized.
+2023-09-02 22:08:20.0205 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 22:08:20.0841 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 22:08:20.0841 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 22:08:20.0986 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 22:08:20.0986 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 22:08:20.1190 Info Configuration initialized.
+2023-09-02 22:24:58.9236 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-02 22:24:58.9429 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-02 22:24:58.9429 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-02 22:24:58.9559 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-02 22:24:58.9559 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-02 22:24:58.9755 Info Configuration initialized.
+2023-09-03 09:37:49.0538 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 09:37:49.0538 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 09:37:49.0538 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 09:37:49.0677 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 09:37:49.0677 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 09:37:49.0904 Info Configuration initialized.
+2023-09-03 13:28:06.7214 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:28:06.7280 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:28:06.7280 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:28:06.7280 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:28:06.7448 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:28:06.7593 Info Configuration initialized.
+2023-09-03 13:31:46.5817 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:31:46.6005 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:31:46.6005 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:31:46.6139 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:31:46.6139 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:31:46.6347 Info Configuration initialized.
+2023-09-03 13:32:36.1660 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:32:36.1660 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:32:36.1660 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:32:36.1797 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:32:36.1797 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:32:36.2016 Info Configuration initialized.
+2023-09-03 13:49:46.9297 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:49:46.9297 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:49:46.9297 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:49:46.9432 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:49:46.9432 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:49:46.9668 Info Configuration initialized.
+2023-09-03 13:52:07.1836 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:52:07.1901 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:52:07.1901 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:52:07.1901 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:52:07.2068 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:52:07.2206 Info Configuration initialized.
+2023-09-03 13:55:11.9031 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:55:11.9092 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:55:11.9092 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:55:11.9092 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:55:11.9264 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:55:11.9402 Info Configuration initialized.
+2023-09-03 13:59:14.3490 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 13:59:14.3490 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 13:59:14.3490 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 13:59:14.3649 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 13:59:14.3649 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 13:59:14.3895 Info Configuration initialized.
+2023-09-03 14:06:28.0446 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 14:06:28.0521 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 14:06:28.0521 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 14:06:28.0521 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 14:06:28.0709 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 14:06:28.0894 Info Configuration initialized.
+2023-09-03 14:07:14.4421 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 14:07:14.4421 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 14:07:14.4421 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 14:07:14.4562 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 14:07:14.4562 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 14:07:14.4786 Info Configuration initialized.
+2023-09-03 14:08:50.9263 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-09-03 14:08:50.9440 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-09-03 14:08:50.9440 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-09-03 14:08:50.9567 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-09-03 14:08:50.9567 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\VS2022\SocialProgrammer\ToDoList\bin\Debug\net7.0\nlog.config
+2023-09-03 14:08:50.9761 Info Configuration initialized.

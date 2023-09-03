@@ -1,0 +1,28 @@
+@model SocialProgrammer.Domain.Entity.ProfileEntity?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialProgrammer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/StandartStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="metricsForm">
+            <h2>@Model.Name</h2>
+            <h2>@Model.Description</h2>
+            <h2>@Model.ArticlesCount</h2>
+        </div>
+        
+        <div class="toolsForm">
+            <a asp-controller="Message" asp-action="MessageForm" asp-route-recipientName="@Model.Name">Enter</a>
+        </div>
+    </div>
+</body>
+</html>

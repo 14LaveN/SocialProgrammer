@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http.Features;
 using NLog.Web;
 using SocialProgrammer;
 using SocialProgrammer.Domain.ViewModels.MongoSettings;
@@ -28,6 +29,11 @@ builder.Host.UseNLog();
 builder.Services.AddControllers()
     .AddJsonOptions(
         options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
+
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 104857600; // 100 MB
+});
 
 var app = builder.Build();
 

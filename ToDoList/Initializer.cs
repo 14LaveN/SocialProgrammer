@@ -19,6 +19,7 @@ namespace SocialProgrammer
             services.AddScoped<ICommentRepository<CommentEntity>, CommentRepository>();
             services.AddScoped<IMessageRepository<MessageEntity>, MessageRepository>();
             services.AddScoped<IMessageHistoryRepository<MessageHistoryEntity>, MessageHistoryRepository>();
+            services.AddScoped<ISearchRepository<SearchEntity>, SearchRepository>();
         }
 
         public static void InitializeServices(this IServiceCollection services)

@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = E:\VS2022\SocialProgrammer\ToDoList
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/VS2022/SocialProgrammer/ToDoList/Views/About/AboutForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXRGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/VS2022/SocialProgrammer/ToDoList/Views/Article/ArticleForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBcnRpY2xlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Article/SearchedArticleForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxTZWFyY2hlZEFydGljbGVGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/VS2022/SocialProgrammer/ToDoList/Views/BestArticles/BestArticlesForm.cshtml]
@@ -44,14 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxVcGRhdGVNZXNzYWdlRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/VS2022/SocialProgrammer/ToDoList/Views/Photo/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/VS2022/SocialProgrammer/ToDoList/Views/Photo/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cVXBsb2FkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/VS2022/SocialProgrammer/ToDoList/Views/Profile/CreateProfileForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxDcmVhdGVQcm9maWxlRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,8 +60,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Profile/SearchedProfileForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxTZWFyY2hlZFByb2ZpbGVGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Search/GetResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXEdldFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Search/SearchArticlesForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEFydGljbGVzRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/VS2022/SocialProgrammer/ToDoList/Views/Search/SearchForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/SocialProgrammer/ToDoList/Views/Search/SearchProfilesForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaFByb2ZpbGVzRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/VS2022/SocialProgrammer/ToDoList/Views/Shared/_ValidationScriptsPartial.cshtml]

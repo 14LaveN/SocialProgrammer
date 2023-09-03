@@ -1,1 +1,30 @@
-@model TModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialProgrammer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/StandartStyle.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <h1 class="Title">Search articles</h1>
+            <form asp-controller="Search" asp-action="SearchArticlesForm">
+                <input id="Description" name="Description" type="text" />
+                <button>Lox</button>
+            </form>
+            <span></span>
+            <h1 class="Title">Search profiles</h1>
+            <form asp-controller="Search" asp-action="SearchProfilesForm">
+                <input name="Description" type="text" />
+                <button>Lox</button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>

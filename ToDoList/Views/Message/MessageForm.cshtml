@@ -1,19 +1,27 @@
 ﻿@using SocialProgrammer.Domain.Entity;
+@using MongoDB.Driver.Linq
 @model IEnumerable<MessageEntity>?
 
-<link rel="stylesheet" href="~/css/StandartStyle.css"/>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialProgrammer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/StandartStyle.css">
+</head>
+<body>
 <form id="createMessageForm">
-    <input value="@Model.FirstOrDefault(x => x.RecipientName == User.Identity.Name).Author" name="RecipientId" />
+    <input value="@ViewBag.RecipientName" name="RecipientId" />
     <input class="inputAuthor" name="Author" value="@User.Identity.Name" />
     <input name="Message" />
     <button id="createMessage">Click</button>
 </form>
-<form method="post" enctype="multipart/form-data" action="/Photo/Upload">
-    <input type="file" name="photo" />
-    <input type="submit" value="Upload" />
-</form>
-
+    
 @foreach (var item in Model)
 {
     <h1>@item.Author</h1>
@@ -28,35 +36,37 @@
         </form>
     }
 }
-
+    
 @section Scripts
-  {
+{
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        $('#createMessage').on('click', function (e) {
-            e.preventDefault();
-            $.ajax({
-                type: 'POST',
-                url: '@Url.Action("CreateMessage", "Message")',
-                data: $('#createMessageForm').serialize(),
-                success: function (response) {
-                    Swal.fire({
-                        title: 'Информация',
-                        text: response.description,
-                        icon: 'success',
-                        confirmButtonText: 'Окей'
-                    })
-                },
-                error: function (response) {
-                    Swal.fire({
-                        title: 'Информация',
-                        text: response.responseJSON.description,
-                        icon: 'error',
-                        confirmButtonText: 'Окей'
-                    })
-                }
-            })
-        });
-    </script>
-    
+            $('#createMessage').on('click', function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CreateMessage", "Message")',
+                    data: $('#createMessageForm').serialize(),
+                    success: function (response) {
+                        Swal.fire({
+                            title: 'Информация',
+                            text: response.description,
+                            icon: 'success',
+                            confirmButtonText: 'Окей'
+                        })
+                    },
+                    error: function (response) {
+                        Swal.fire({
+                            title: 'Информация',
+                            text: response.responseJSON.description,
+                            icon: 'error',
+                            confirmButtonText: 'Окей'
+                        })
+                    }
+                })
+            });
+        </script>
+        
 }
+</body>
+</html>

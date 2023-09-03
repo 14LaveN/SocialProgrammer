@@ -26,19 +26,29 @@
 
     <ItemGroup>
       <Compile Remove="Pages\**" />
+      <Compile Remove="Controllers\PhotoController.cs" />
+      <Compile Remove="Views\Photo\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="Pages\**" />
+      <EmbeddedResource Remove="Views\Photo\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Remove="Pages\**" />
       <Content Remove="wwwroot\js\ArticleScript.js" />
+      <Content Remove="Views\Photo\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Pages\**" />
+      <None Remove="Views\Photo\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Photo\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Photo\Upload.cshtml" />
     </ItemGroup>
 
 </Project>

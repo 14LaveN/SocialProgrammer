@@ -19,10 +19,18 @@ public class ArticleController : Controller
         this.articleRepository = articleRepository; 
     }
 
+    [HttpGet]
     public async Task<IActionResult> ArticleForm()
     {
         var articles = await GetAll();
         return View(articles);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> SearchedArticleForm(string id)
+    {
+        var article = await articleRepository.GetAsync(id);
+        return View(article);
     }
 
     [HttpPost]

@@ -22,8 +22,10 @@ public class ProfileController : Controller
         this.profileRepository = profileRepository;
     }
 
+    [HttpGet]
     public IActionResult CreateProfileForm() => View();
 
+    [HttpGet]
     public async Task<IActionResult> ProfileForm()
     {
         var profile = await profileRepository.GetNameAsync(User.Identity.Name);
@@ -33,6 +35,13 @@ public class ProfileController : Controller
             return RedirectToAction("CreateProfileForm", "Profile");
         }
         
+        return View(profile);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> SearchedProfileForm(string id)
+    {
+        var profile = await profileRepository.GetAsync(id);
         return View(profile);
     }
 

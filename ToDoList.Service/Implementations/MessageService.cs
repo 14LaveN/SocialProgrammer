@@ -67,7 +67,7 @@ public class MessageService : IMessageService
 
             messageHistory.Messages++;
 
-            if (messagesHistoryWithDuplicates is null)
+            if (messagesHistoryWithDuplicates.Count < 1)
                 await messageHistoryRepository.CreateAsync(messageHistory);
             await messageRepository.CreateAsync(message);
 

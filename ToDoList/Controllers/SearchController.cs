@@ -11,28 +11,38 @@ namespace SocialProgrammer.Controllers;
 
 public class SearchController : Controller
 {
-    private readonly ILogger<SearchController> logger;
     private readonly ISearchRepository<SearchEntity> searchRepository;
     private readonly IArticleRepository<ArticleEntity> articleRepository;
     private readonly IProfileRepository<ProfileEntity> profileRepository;
     
-    public SearchController(ILogger<SearchController> logger,
-        ISearchRepository<SearchEntity> searchRepository,
+    public SearchController(ISearchRepository<SearchEntity> searchRepository,
         IArticleRepository<ArticleEntity> articleRepository,
         IProfileRepository<ProfileEntity> profileRepository)
     {
-        this.logger = logger;
+  
         this.searchRepository = searchRepository;
         this.articleRepository = articleRepository;
         this.profileRepository = profileRepository;
     }
+
     [HttpGet]
-    public async Task<IActionResult> SearchForm(string searchLine, SearchData searchData)
+    public IActionResult SearchForm()
     {
-        if (searchData == SearchData.Articles)
-            return View(await GetResultByArticles(searchLine));
-        
-        return View(await GetResultByArticles(searchLine));
+        return View();
+    }
+    
+    [HttpPost]
+    public async Task<IActionResult> SearchArticlesForm(SearchResultViewModel searchResultViewModel)
+    {
+        var result = await GetResultByArticles(searchResultViewModel.Description);
+        return View(result);
+    }
+    
+    [HttpPost]
+    public async Task<IActionResult> SearchProfilesForm(SearchResultViewModel searchResultViewModel)
+    {
+        var result = await GetResultByProfiles(searchResultViewModel.Description);
+        return View(result);
     }
 
     [HttpPost]
@@ -57,18 +67,17 @@ public class SearchController : Controller
         return responseByProfiles.Data;
     }
     
+    //Results
     public async Task<IBaseResponse<List<ProfileEntity>>> GetResultAfterSearchByProfiles(string searchLine)
     {
         try
         {
-            logger.LogInformation($"Request for search - {searchLine}");
             
-            var searchesByProfiles = new List<ProfileEntity>();
             var resultAfterSearchByProfiles = await profileRepository.GetAllAsync();
             
             var resultByProfiles = resultAfterSearchByProfiles
-                .Where(x => x.Description == searchLine 
-                            || x.Name == searchLine)
+                .Where(x =>  x.Name == searchLine
+                             || x.Description == searchLine)
                 .ToList();
             
             var search = new SearchEntity()
@@ -79,8 +88,7 @@ public class SearchController : Controller
             };
             
             await searchRepository.CreateAsync(search);
-
-            logger.LogInformation($"Search created: {search.Description}");
+            
             return new BaseResponse<List<ProfileEntity>>()
             {
                 Data = resultByProfiles,
@@ -91,7 +99,6 @@ public class SearchController : Controller
         }
         catch (Exception exception)
         {
-            logger.LogError(exception, $"[ProfileService.CreateProfile]: {exception.Message}");
             return new BaseResponse<List<ProfileEntity>>()
             {
                 Description = exception.Message,
@@ -104,8 +111,6 @@ public class SearchController : Controller
     {
         try
         {
-            logger.LogInformation($"Request for search - {searchLine}");
-
             var searchesByArticles = new List<ArticleEntity>();
             var resultAfterSearchByArticles = await articleRepository.GetAllAsync();
             
@@ -122,8 +127,7 @@ public class SearchController : Controller
             };
             
             await searchRepository.CreateAsync(search);
-
-            logger.LogInformation($"Search created: {search.Description}");
+            
             return new BaseResponse<List<ArticleEntity>>()
             {
                 Data = resultByArticles,
@@ -133,7 +137,6 @@ public class SearchController : Controller
         }
         catch (Exception exception)
         {
-            logger.LogError(exception, $"[SearchController.GetResultByArticles]: {exception.Message}");
             return new BaseResponse<List<ArticleEntity>>()
             {
                 Description = exception.Message,

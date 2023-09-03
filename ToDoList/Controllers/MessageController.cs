@@ -26,7 +26,13 @@ public class MessageController : Controller
     {
         var messagesByHistory = await messageRepository.GetAllAsync();
         var messagesByMessagesCurrentHistory = messagesByHistory
-            .Where(x => x.RecipientName == recipientName || x.Author == User.Identity?.Name || x.RecipientName == User.Identity?.Name);
+            .Where(x => x.RecipientName == recipientName 
+                && x.Author == User.Identity?.Name 
+                || x.RecipientName == User.Identity?.Name 
+                && x.Author == recipientName);
+        
+        ViewBag.RecipientName = recipientName;
+        
         return View(messagesByMessagesCurrentHistory);
     }
 
